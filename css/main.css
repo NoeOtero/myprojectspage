@@ -1,0 +1,99 @@
+body {
+background-color: #9EC187;
+}
+.logo {
+	padding-left: 50px;
+	font-family: 'Orbitron', sans-serif;
+	font-size: 50px;
+}
+.border {
+	border-bottom: solid black,
+}
+nav ul li {	
+	font-family: 'Indie Flower', cursive;
+	font-size: 20px;
+	display: inline-block;
+	float: right;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+nav ul li a{
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+	}
+a:hover{
+	font-size:30px;
+}
+.body img {
+	position: relative;
+	padding-top: 30px;
+	left: 350px;
+}
+.body h1 {
+	padding-top: 60px;
+}
+.body h1, h4, h3{
+	font-family: 'Indie Flower', cursive;
+	text-align: center;
+}
+.body h3{
+	position: relative;
+	font-size: 25px;
+}
+.aboutme {
+	position: relative;
+	font-size: 15px;
+	float: left;
+	top: 100px;
+	width: 40%;
+	border-bottom: 1px solid #62EA05;
+	padding-left: 50px;
+}
+.mywork {
+	position: relative;
+	font-size: 15px;
+	float: right;
+	top:100px;
+	width: 30%;
+	border-bottom: 1px solid #62EA05;
+	padding-right: 50px;
+}
+.instruments{
+	position: relative;
+	display: inline-block;
+	top: 100px;
+	right: 150px;
+}
+.instruments a{
+	padding: 30px;
+}
+.contact form > input,
+form > textarea {
+	position: relative;
+	left: 500px;
+	top: 200px;
+	background-color: #ADFC7A;
+	width: 30%;
+	display: block;
+	border-radius: 15px;
+	border-width: 2px;
+	border-color: grey;
+}
+.contact button{
+	position: relative;
+	left: 850px;
+	top: 200px;
+	padding: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.socialmedia a {
+	position: relative;
+	left: 500px;
+	top: 170px;
+	font-size: 30px;
+	text-decoration: none;
+	color: #581845;
+	padding-right: 10px;
+}
